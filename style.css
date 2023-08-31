@@ -1,0 +1,19 @@
+* {
+    font-family: "Helvetica", "Verdana", sans-serif
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+    background: black;
+}
+
+div.container {
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    font-size: 30px;
+    list-style-type: none;
+}
