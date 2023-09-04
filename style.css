@@ -2,7 +2,7 @@
     font-family: "Helvetica", "Verdana", sans-serif
 }
 
-.header {
+.title {
     text-align: center;
     font-size: 50px;
     color: orange;
@@ -12,8 +12,21 @@
 div.container {
     text-align: center;
 }
-ul {
+
+/* Only affects the recipes list on index.html */
+.container ul {
     display: inline-block;
     font-size: 30px;
     list-style-type: none;
 }
+
+i {
+    color: gray;
+}
+
+/* Changes every food image to 500x500 */
+img {
+    width: 500px;
+    height: auto;
+}
+
