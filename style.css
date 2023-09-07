@@ -9,15 +9,19 @@
     background: black;
 }
 
-div.container {
+#smallbox {
+    width: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+    background: black;
     text-align: center;
+    padding: 10px;
+    margin: 20px auto;
 }
 
-/* Only affects the recipes list on index.html */
-.container ul {
-    display: inline-block;
-    font-size: 30px;
-    list-style-type: none;
+div.container {
+    text-align: center;
 }
 
 i {
@@ -30,3 +34,10 @@ img {
     height: auto;
 }
 
+/* Styles the navigation bar at the homepage */
+nav a {
+    padding: 10px;
+    background: orange;
+    display: inline-block;
+    font-size: 20px;
+}
